@@ -374,10 +374,24 @@ h1 {
 }
 
 .card__accent {
+  display: grid;
+  place-items: center;
   width: 46px;
   height: 46px;
   border-radius: 16px;
   flex: 0 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(10px);
+}
+
+.card__icon {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .card h2 {
@@ -428,10 +442,13 @@ h1 {
 }
 
 .ocean .card__accent {
+  color: #e7fbff;
   background:
-    radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.75), transparent 26%),
-    linear-gradient(145deg, rgba(89, 167, 202, 0.95), rgba(20, 101, 128, 0.95));
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35);
+    radial-gradient(circle at 30% 25%, rgba(255, 255, 255, 0.42), transparent 30%),
+    linear-gradient(145deg, rgba(89, 167, 202, 0.24), rgba(20, 101, 128, 0.72));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 12px 24px rgba(20, 101, 128, 0.18);
 }
 
 .ocean .card__footer span {
@@ -444,10 +461,13 @@ h1 {
 }
 
 .rain .card__accent {
+  color: #eef3ff;
   background:
-    radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.75), transparent 26%),
-    linear-gradient(145deg, rgba(125, 143, 175, 0.95), rgba(77, 94, 127, 0.95));
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35);
+    radial-gradient(circle at 30% 25%, rgba(255, 255, 255, 0.42), transparent 30%),
+    linear-gradient(145deg, rgba(125, 143, 175, 0.24), rgba(77, 94, 127, 0.72));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 12px 24px rgba(77, 94, 127, 0.18);
 }
 
 .rain .card__footer span {
@@ -460,10 +480,13 @@ h1 {
 }
 
 .cafe .card__accent {
+  color: #fff6ec;
   background:
-    radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.75), transparent 26%),
-    linear-gradient(145deg, rgba(191, 147, 105, 0.95), rgba(137, 92, 51, 0.95));
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35);
+    radial-gradient(circle at 30% 25%, rgba(255, 255, 255, 0.4), transparent 30%),
+    linear-gradient(145deg, rgba(191, 147, 105, 0.24), rgba(137, 92, 51, 0.72));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 12px 24px rgba(137, 92, 51, 0.18);
 }
 
 .cafe .card__footer span {
