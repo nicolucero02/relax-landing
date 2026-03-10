@@ -1,6 +1,7 @@
 const translations = {
   es: {
     brand: "Relax Sounds",
+    brandNote: "Biblioteca de ambientes relajantes",
     languageLabel: "Idioma",
     themeLight: "Modo claro",
     themeDark: "Modo oscuro",
@@ -26,6 +27,7 @@ const translations = {
   },
   en: {
     brand: "Relax Sounds",
+    brandNote: "Ambient focus library",
     languageLabel: "Language",
     themeLight: "Light mode",
     themeDark: "Dark mode",

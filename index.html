@@ -15,7 +15,15 @@
   <body>
     <main class="page">
       <header class="topbar">
-        <div class="brand" data-i18n="brand">Relax Sounds</div>
+        <div class="brand-block">
+          <div class="brand-mark" aria-hidden="true">RS</div>
+          <div class="brand-copy">
+            <div class="brand" data-i18n="brand">Relax Sounds</div>
+            <p class="brand-note" data-i18n="brandNote">
+              Biblioteca de ambientes relajantes
+            </p>
+          </div>
+        </div>
 
         <div class="controls">
           <label class="control language-control" for="language-select">
@@ -41,45 +49,65 @@
       </header>
 
       <section class="hero">
-        <p class="eyebrow" data-i18n="eyebrow">Sonidos para bajar el ritmo</p>
-        <h1 data-i18n="heroTitle">
-          Encuentra un momento de calma en cualquier lugar
-        </h1>
-        <p class="subtitle" data-i18n="heroSubtitle">
-          Una colección simple de ambientes relajantes para estudiar, descansar
-          o desconectarte del ruido diario.
-        </p>
-        <a class="cta" href="#soundscape-list" data-i18n="cta">
-          Explorar sonidos
-        </a>
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="eyebrow">Sonidos para bajar el ritmo</p>
+          <h1 data-i18n="heroTitle">
+            Encuentra un momento de calma en cualquier lugar
+          </h1>
+          <p class="subtitle" data-i18n="heroSubtitle">
+            Una colección simple de ambientes relajantes para estudiar, descansar
+            o desconectarte del ruido diario.
+          </p>
+          <a class="cta" href="#soundscape-list" data-i18n="cta">
+            Explorar sonidos
+          </a>
+        </div>
       </section>
 
       <section class="soundscape-list" id="soundscape-list">
         <article class="card ocean">
-          <span class="tag" data-i18n="oceanTag">Océano</span>
+          <div class="card__top">
+            <span class="tag" data-i18n="oceanTag">Océano</span>
+            <span class="card__accent" aria-hidden="true"></span>
+          </div>
           <h2 data-i18n="oceanTitle">Brisa marina</h2>
           <p data-i18n="oceanText">
             Olas suaves y viento costero para crear una atmósfera abierta,
             tranquila y constante.
           </p>
+          <div class="card__footer" aria-hidden="true">
+            <span></span>
+          </div>
         </article>
 
         <article class="card rain">
-          <span class="tag" data-i18n="rainTag">Lluvia</span>
+          <div class="card__top">
+            <span class="tag" data-i18n="rainTag">Lluvia</span>
+            <span class="card__accent" aria-hidden="true"></span>
+          </div>
           <h2 data-i18n="rainTitle">Tarde lluviosa</h2>
           <p data-i18n="rainText">
             Gotas regulares y fondo tenue para concentrarte mejor o acompañar
             una pausa silenciosa.
           </p>
+          <div class="card__footer" aria-hidden="true">
+            <span></span>
+          </div>
         </article>
 
         <article class="card cafe">
-          <span class="tag" data-i18n="cafeTag">Cafetería</span>
+          <div class="card__top">
+            <span class="tag" data-i18n="cafeTag">Cafetería</span>
+            <span class="card__accent" aria-hidden="true"></span>
+          </div>
           <h2 data-i18n="cafeTitle">Rincón de café</h2>
           <p data-i18n="cafeText">
             Murmullo ambiente, tazas y movimiento ligero para sentir un espacio
             cálido y familiar.
           </p>
+          <div class="card__footer" aria-hidden="true">
+            <span></span>
+          </div>
         </article>
       </section>
     </main>
