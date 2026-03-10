@@ -120,13 +120,18 @@ select {
   place-items: center;
   width: 46px;
   height: 46px;
+  padding: 4px;
   border-radius: 16px;
-  background: linear-gradient(145deg, var(--accent), var(--accent-strong));
-  color: var(--button-text);
-  font-size: 0.9rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  box-shadow: 0 16px 30px rgba(21, 94, 99, 0.28);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 16px 30px rgba(21, 94, 99, 0.18);
+}
+
+.brand-logo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
 .brand-copy {
