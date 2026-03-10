@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relax Sounds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="topbar">
+        <div class="brand" data-i18n="brand">Relax Sounds</div>
+
+        <div class="controls">
+          <label class="control language-control" for="language-select">
+            <span data-i18n="languageLabel">Idioma</span>
+            <select id="language-select" aria-label="Seleccionar idioma">
+              <option value="es">ES</option>
+              <option value="en">EN</option>
+            </select>
+          </label>
+
+          <button
+            class="control theme-toggle"
+            id="theme-toggle"
+            type="button"
+            aria-live="polite"
+          >
+            <span class="theme-toggle__icon" aria-hidden="true">☀</span>
+            <span class="theme-toggle__label" data-i18n="themeLight">
+              Modo claro
+            </span>
+          </button>
+        </div>
+      </header>
+
+      <section class="hero">
+        <p class="eyebrow" data-i18n="eyebrow">Sonidos para bajar el ritmo</p>
+        <h1 data-i18n="heroTitle">
+          Encuentra un momento de calma en cualquier lugar
+        </h1>
+        <p class="subtitle" data-i18n="heroSubtitle">
+          Una colección simple de ambientes relajantes para estudiar, descansar
+          o desconectarte del ruido diario.
+        </p>
+        <a class="cta" href="#soundscape-list" data-i18n="cta">
+          Explorar sonidos
+        </a>
+      </section>
+
+      <section class="soundscape-list" id="soundscape-list">
+        <article class="card ocean">
+          <span class="tag" data-i18n="oceanTag">Océano</span>
+          <h2 data-i18n="oceanTitle">Brisa marina</h2>
+          <p data-i18n="oceanText">
+            Olas suaves y viento costero para crear una atmósfera abierta,
+            tranquila y constante.
+          </p>
+        </article>
+
+        <article class="card rain">
+          <span class="tag" data-i18n="rainTag">Lluvia</span>
+          <h2 data-i18n="rainTitle">Tarde lluviosa</h2>
+          <p data-i18n="rainText">
+            Gotas regulares y fondo tenue para concentrarte mejor o acompañar
+            una pausa silenciosa.
+          </p>
+        </article>
+
+        <article class="card cafe">
+          <span class="tag" data-i18n="cafeTag">Cafetería</span>
+          <h2 data-i18n="cafeTitle">Rincón de café</h2>
+          <p data-i18n="cafeText">
+            Murmullo ambiente, tazas y movimiento ligero para sentir un espacio
+            cálido y familiar.
+          </p>
+        </article>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
