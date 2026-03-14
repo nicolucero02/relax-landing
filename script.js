@@ -22,6 +22,14 @@ const translations = {
     cafeTitle: "Rincón de café",
     cafeText:
       "Murmullo ambiente, tazas y movimiento ligero para sentir un espacio cálido y familiar.",
+    channelEyebrow: "Visita el canal",
+    channelTitle: "Escucha más en YouTube",
+    channelText:
+      "Explora más sonidos relajantes, sesiones largas y nuevos ambientes para acompañar tus momentos de calma.",
+    channelButton: "Ir al canal de YouTube",
+    contactEyebrow: "Contacto",
+    contactEmailButton: "Enviar email",
+    contactGithubButton: "GitHub",
     themeToggleLabel: "Cambiar tema",
     languageSelectLabel: "Seleccionar idioma"
   },
@@ -48,6 +56,14 @@ const translations = {
     cafeTitle: "Coffee corner",
     cafeText:
       "Ambient chatter, cups, and gentle motion to evoke a warm and familiar space.",
+    channelEyebrow: "Visit the channel",
+    channelTitle: "Listen to more on YouTube",
+    channelText:
+      "Explore more relaxing sounds, long sessions, and new ambiences to support your calmer moments.",
+    channelButton: "Go to the YouTube channel",
+    contactEyebrow: "Contact",
+    contactEmailButton: "Send email",
+    contactGithubButton: "GitHub",
     themeToggleLabel: "Switch theme",
     languageSelectLabel: "Choose language"
   }
