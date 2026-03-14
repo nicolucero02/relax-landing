@@ -22,6 +22,22 @@ const translations = {
     cafeTitle: "Rincón de café",
     cafeText:
       "Murmullo ambiente, tazas y movimiento ligero para sentir un espacio cálido y familiar.",
+    featuredEyebrow: "DESCUBRE ESTOS AMBIENTES",
+    featuredTitle: "Primeros paisajes del proyecto",
+    featuredText:
+      "Una muestra visual de los primeros sonidos del proyecto. Explora cada ambiente y continúa la experiencia en el canal.",
+    featuredOceanTag: "Océano",
+    featuredOceanTitle: "Océano y ballenas",
+    featuredOceanText:
+      "Calma profunda, oleaje amplio y un fondo marino que invita a bajar el ritmo.",
+    featuredRainTag: "Lluvia",
+    featuredRainTitle: "Lluvia y piano",
+    featuredRainText:
+      "Descanso suave, gotas regulares y una atmósfera tranquila para desacelerar.",
+    featuredCafeTag: "Cafetería",
+    featuredCafeTitle: "Café y música suave",
+    featuredCafeText:
+      "Concentración cálida, ritmo lento y el murmullo justo para mantenerse presente.",
     channelEyebrow: "Visita el canal",
     channelTitle: "Escucha más en YouTube",
     channelText:
@@ -56,6 +72,22 @@ const translations = {
     cafeTitle: "Coffee corner",
     cafeText:
       "Ambient chatter, cups, and gentle motion to evoke a warm and familiar space.",
+    featuredEyebrow: "DISCOVER THESE AMBIENCES",
+    featuredTitle: "Early sounds from the project",
+    featuredText:
+      "A visual sample of the project's first soundscapes. Explore each ambience and continue the experience on the channel.",
+    featuredOceanTag: "Ocean",
+    featuredOceanTitle: "Ocean and whales",
+    featuredOceanText:
+      "Deep calm, open waves, and a marine backdrop that helps everything slow down.",
+    featuredRainTag: "Rain",
+    featuredRainTitle: "Rain and piano",
+    featuredRainText:
+      "Soft rest, steady drops, and a quiet atmosphere made for easing into stillness.",
+    featuredCafeTag: "Cafe",
+    featuredCafeTitle: "Cafe and soft music",
+    featuredCafeText:
+      "Warm focus, slow rhythm, and just enough ambient motion to stay present.",
     channelEyebrow: "Visit the channel",
     channelTitle: "Listen to more on YouTube",
     channelText:
