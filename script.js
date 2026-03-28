@@ -43,7 +43,10 @@ const translations = {
     channelText:
       "Explora más sonidos relajantes, sesiones largas y nuevos ambientes para acompañar tus momentos de calma.",
     channelButton: "Ir al canal de YouTube",
-    contactEyebrow: "Contacto",
+    contactEyebrow: "CONTACTO",
+    contactTitle: "Conecta conmigo",
+    contactText:
+      "Si tienes sugerencias, ideas para nuevos ambientes o quieres explorar más proyectos, no dudes en contactarme.",
     contactEmailButton: "Enviar email",
     contactGithubButton: "GitHub",
     themeToggleLabel: "Cambiar tema",
@@ -93,7 +96,10 @@ const translations = {
     channelText:
       "Explore more relaxing sounds, long sessions, and new ambiences to support your calmer moments.",
     channelButton: "Go to the YouTube channel",
-    contactEyebrow: "Contact",
+    contactEyebrow: "CONTACT",
+    contactTitle: "Connect with me",
+    contactText:
+      "If you have suggestions, ideas for new ambiences, or want to explore more projects, feel free to get in touch.",
     contactEmailButton: "Send email",
     contactGithubButton: "GitHub",
     themeToggleLabel: "Switch theme",

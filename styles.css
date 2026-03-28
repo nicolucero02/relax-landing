@@ -501,8 +501,8 @@ h1 {
 }
 
 .contact-section {
-  margin-top: 20px;
-  padding: 28px 32px;
+  margin-top: 28px;
+  padding: 30px 32px;
   border: 1px solid var(--panel-border);
   border-radius: 30px;
   background: var(--panel);
@@ -515,10 +515,12 @@ h1 {
 .contact-section__copy {
   display: flex;
   flex-direction: column;
+  max-width: 640px;
+  gap: 0;
 }
 
 .contact-section__eyebrow {
-  margin: 0;
+  margin: 0 0 10px;
   color: var(--accent);
   font-size: 0.8rem;
   font-weight: 800;
@@ -526,11 +528,24 @@ h1 {
   text-transform: uppercase;
 }
 
+.contact-section h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 3.4vw, 2.5rem);
+  line-height: 1.05;
+}
+
+.contact-section__text {
+  margin: 14px 0 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
 .contact-section__actions {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   gap: 12px;
-  margin-top: 16px;
+  margin-top: 22px;
   justify-content: flex-start;
 }
 
@@ -658,16 +673,23 @@ h1 {
   align-items: center;
   min-height: 34px;
   padding: 0 12px;
+  border: 1px solid transparent;
   border-radius: 999px;
   font-size: 0.76rem;
   font-weight: 800;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  color: var(--text);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.42),
+    0 10px 24px rgba(17, 27, 31, 0.08);
+  backdrop-filter: blur(12px);
 }
 
 .ocean .tag {
-  background: rgba(89, 167, 202, 0.16);
-  color: #0f6078;
+  background: rgba(92, 188, 221, 0.22);
+  border-color: rgba(75, 154, 184, 0.26);
+  color: #0d5d73;
 }
 
 .ocean .card__accent {
@@ -679,8 +701,9 @@ h1 {
 }
 
 .rain .tag {
-  background: rgba(104, 126, 160, 0.16);
-  color: #435472;
+  background: rgba(105, 136, 202, 0.2);
+  border-color: rgba(90, 116, 175, 0.28);
+  color: #35547b;
 }
 
 .rain .card__accent {
@@ -692,8 +715,9 @@ h1 {
 }
 
 .cafe .tag {
-  background: rgba(181, 132, 86, 0.16);
-  color: #86542b;
+  background: rgba(220, 170, 92, 0.22);
+  border-color: rgba(176, 129, 61, 0.28);
+  color: #7a4d1c;
 }
 
 .cafe .card__accent {
@@ -702,6 +726,30 @@ h1 {
 
 .cafe .card__footer span {
   background: linear-gradient(90deg, rgba(181, 132, 86, 0.45), transparent);
+}
+
+body[data-theme="dark"] .tag {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 14px 28px rgba(0, 0, 0, 0.24);
+}
+
+body[data-theme="dark"] .ocean .tag {
+  background: rgba(83, 197, 228, 0.2);
+  border-color: rgba(103, 209, 239, 0.32);
+  color: #d7f7ff;
+}
+
+body[data-theme="dark"] .rain .tag {
+  background: rgba(102, 139, 221, 0.2);
+  border-color: rgba(124, 160, 237, 0.32);
+  color: #dbe7ff;
+}
+
+body[data-theme="dark"] .cafe .tag {
+  background: rgba(224, 168, 77, 0.2);
+  border-color: rgba(236, 184, 103, 0.3);
+  color: #ffe7c2;
 }
 
 @media (max-width: 960px) {
@@ -842,7 +890,7 @@ h1 {
   }
 
   .contact-section {
-    margin-top: 16px;
+    margin-top: 18px;
     padding: 24px 18px;
     border-radius: 24px;
   }
